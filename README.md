@@ -1,11 +1,11 @@
-# Simple 1ngularjs + Node.js + Docker Web app that you can test
+# Simple Angularjs + Node.js + Docker Web app that you can test
 
 Simple movie catalog web App developed using Angularjs
 
 ## Files
 
 - simple/
-  - server.js      Example Express web server.
+  - server.js      Example Express web server that calls the index.html inside the angular folder.
   - Dockerfile        Script file for building our Docker image.
   - package.json      Node.js package file, specifies npm dependencies.
 
