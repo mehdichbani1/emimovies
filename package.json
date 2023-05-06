@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docker:build": "docker build --file Dockerfile --tag=hellomehdi .",
+    "docker:run": "docker run -p 7000:7000 -d --name=hellomehdi hellomehdi",
+    "docker:stop": "docker stop helloworld"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "node-dev": "^8.0.0"
+  }
+}
