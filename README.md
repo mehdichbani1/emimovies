@@ -16,7 +16,7 @@ You need Node.js and Docker installed.
 First change to the directory and install dependencies:
 
 ```bash
-cd backend
+cd emimovies
 npm install
 ```
 
